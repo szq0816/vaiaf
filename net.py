@@ -278,8 +278,8 @@ class Prediction(nn.Module):
 #         return x
 
 
-class Apadc():
-    """Apadc module."""
+class Vaiaf():
+    """Vaiaf module."""
 
     def __init__(self,
                  config):

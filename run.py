@@ -5,7 +5,7 @@ import torch
 import random
 import torch.nn.functional as F
 from torch.autograd import Variable
-from net import Apadc
+from net import Vaiaf
 from get_indicator_matrix_A import get_mask
 from util import cal_std, get_logger
 from datasets import *
