@@ -519,7 +519,7 @@ class Vaiaf():
                      "==> REC loss = {:.4f} " \
                      "==> MMD loss = {:.4f} " \
                      "==> MMI loss = {:.4e} " \
-                .format(epoch, config['training']['epoch'], (loss_rec1 + loss_rec2), loss_mmd, loss_mmi)
+                .format(epoch, config['training']['epoch'], (loss_rec1 + loss_rec2), loss_dda, loss_mia)
             # output = "Epoch: {:.0f}/{:.0f} " \
             #     .format(epoch, config['training']['epoch'])
             print(output)
