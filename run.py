@@ -69,15 +69,15 @@ def main(MR=[0.3]):
                 torch.backends.cudnn.benchmark = True
 
                 # Build the model
-                APADC = Apadc(config)
+                VAIAF = Vaiaf(config)
                 optimizer = torch.optim.Adam(
-                    itertools.chain(APADC.autoencoder1.parameters(), APADC.autoencoder2.parameters()),
+                    itertools.chain(VAIAF.autoencoder1.parameters(), VAIAF.autoencoder2.parameters()),
                     lr=config['training']['lr'])
-                APADC.to_device(device)
+                VAIAF.to_device(device)
 
                 # Print the models
-                # logger.info(APADC.autoencoder1)
-                # logger.info(APADC.autoencoder2)
+                # logger.info(VAIAF.autoencoder1)
+                # logger.info(VAIAF.autoencoder2)
                 # logger.info(optimizer)
 
                 # # init p distribution
@@ -102,8 +102,8 @@ def main(MR=[0.3]):
                 for epoch in range(config['training']['epoch'] + 1):
                     if epoch <= config['training']['epoch']:
                     # if epoch < config['training']['epoch']:
-                        Tmp_acc, Tmp_nmi, Tmp_ari =APADC.train(config, logger, x1_train, x2_train, Y_list, mask, optimizer, device)
-                        # APADC.train(config, logger, x1_train, x2_train, mask, optimizer, device,flag_1,epoch,Y_list1, p_sample, adaptive_weight)
+                        Tmp_acc, Tmp_nmi, Tmp_ari =VAIAF.train(config, logger, x1_train, x2_train, Y_list, mask, optimizer, device)
+                        # VAIAF.train(config, logger, x1_train, x2_train, mask, optimizer, device,flag_1,epoch,Y_list1, p_sample, adaptive_weight)
 
 
                 accumulated_metrics['acc'].append(Tmp_acc)
