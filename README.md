@@ -12,6 +12,6 @@ numpy==1.24.4
 einops==0.6.1
 
 =======================================Datasets==================================================
-The Scene15 dataset is available at \url{https://github.com/QinghaiZheng1992/Code-for-UGLTL/blob/master/dataset/scene15.mat}. 
-The MNISTUSPS dataset can be downloaded from \url{https://github.com/YangSkywalker/L1-MvDA-VC/blob/main/Data/MNIST-USPS.mat}. 
-The NoisyMNIST dataset can be found at \url{https://github.com/fariba87/noisyMNIST/tree/main/noisyMNIST/noisyMNIST}.
+The Scene15 dataset is available at https://github.com/QinghaiZheng1992/Code-for-UGLTL/blob/master/dataset/scene15.mat
+The MNISTUSPS dataset can be downloaded from https://github.com/YangSkywalker/L1-MvDA-VC/blob/main/Data/MNIST-USPS.mat
+The NoisyMNIST dataset can be found at https://github.com/fariba87/noisyMNIST/tree/main/noisyMNIST/noisyMNIST
