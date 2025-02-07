@@ -28,4 +28,4 @@ The MNISTUSPS dataset can be downloaded from [MNIST-USPS](https://github.com/Yan
 
 The NoisyMNIST dataset can be found at [NoisyMNIST](https://github.com/fariba87/noisyMNIST/tree/main/noisyMNIST/noisyMNIST).
 
-Please get in touch with us at lywinaaa@gmail.com for questions.
+Please get in touch with us at [lyw](lywinaaa@gmail.com) for questions.
