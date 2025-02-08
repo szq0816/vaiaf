@@ -2,7 +2,7 @@ This is the "View-interactive attention information alignment-guided fusion for 
 
 
 
-# ============Installation and Requirements===========
+# ======Installation and Requirements======
 
 python==3.8.13
 
@@ -18,7 +18,7 @@ numpy==1.24.4
 
 einops==0.6.1
 
-# ==================Datasets================
+# ======Datasets======
 
 The Scene15 dataset is available at [Scene-15](https://github.com/QinghaiZheng1992/Code-for-UGLTL/blob/master/dataset/scene15.mat).
 
